@@ -1,0 +1,166 @@
+/*Global Section */
+
+body {
+  margin: 0px 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header Section */
+
+header {
+  position: fixed;
+  background-color: black;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  margin: 10px;
+  display: flex;
+  height: 50px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navbar {
+  margin-right: 10px;
+}
+
+.navbar span {
+  text-decoration: underline;
+  margin: 0px 10px;
+}
+
+.navbar a {
+  color: seashell;
+}
+
+/* Content Section */
+
+.main {
+  padding-top: 69px;
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/mainback.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.missiontext {
+  background-color: black;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+.store {
+  padding-top:50px;
+  width: 1000px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 550px;
+  width: auto;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.item {
+  width: 305px;
+  height: 255px;
+  padding: 10px;
+  display: block;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations {
+  display: block;
+  margin: auto;
+  height: 575px;
+  width: 1200px;
+  background-image: url("../images/teacup.jpg");
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 257px;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+}
+
+.location h3,
+.location p {
+  opacity: 1;
+}
+
+.locations h2 {
+  padding-top: 70px;
+}
+
+.location h3 {
+  padding: 10px;
+  margin: 0px;
+}
+
+.location p {
+  margin: 22px 0px;
+}
+
+/* Contact Section */
+
+.contact {
+  display: block;
+  height: 200px;
+}
+
+.contact h2 {
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.contact h5 {
+  margin: 29px 0px;
+}
+
+/* Footer Section */
+
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
